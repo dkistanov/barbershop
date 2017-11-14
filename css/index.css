@@ -1,11 +1,13 @@
 @font-face {
     font-family:PTSANSNARROW;
-    src: url(../fonts/ptsansnarrowbold.woff);
+    src: url(/fonts/ptsansnarrowbold.woff);
 }
 
 * {
     font-family:PTSANSNARROW;
     color: #000000;
+    margin: 0;
+    padding: 0;
 }
 body, html {
     height: 100%;
@@ -15,8 +17,8 @@ body, html {
     margin: 0 auto;
 }
 .wrapper {
-    background: url(../img/bg.jpg);
-    background-position: 0 70px;
+    background: url(/img/bg.jpg);
+    background-position: -2px 70px;
     padding-bottom: 30px;
 }
 .clearfix::after {
@@ -38,7 +40,8 @@ footer {
 .header__menu-item {
     display: inline-block;
     color: #ffffff;
-    margin-top: 30px;
+    margin-top: 15px;
+    text-decoration: none;
     float: left;
     margin-right: 35px;
 }
@@ -190,6 +193,7 @@ form input:nth-child(1),form input:nth-child(3) {
 .footer__socials-title {
     color: #fff;
     text-align: center;
+    margin-bottom: 10px;
 }
 .footer__socials-list li {
     display: inline-block;
@@ -204,13 +208,13 @@ form input:nth-child(1),form input:nth-child(3) {
     padding: 15px 20px;
 }
 .footer__socials-item {
-    background: url(../img/bgicons.png);
+    background: url(/img/bgicons.png);
     width: 50px;
     height: 50px;
     margin-left: 5px;
 }
 .footer_vk {
-    margin-left: 20px;
+    margin-left: 59px;
 }
 .footer__socials-vk {
     display: block;
